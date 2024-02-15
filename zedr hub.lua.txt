@@ -13,4 +13,4 @@ getgenv().Config = {
     ["Server Discord"] = "https://discord.gg/66FbFBE7"
 }
 repeat wait() until game:IsLoaded()
-loadstring(game:HttpGet("https://github.com/mkhoidzvl13/chest/blob/main/zedr%20hub.lua.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mkhoidzvl13/chest/main/zedr%20hub.lua.txt"))()
