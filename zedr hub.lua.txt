@@ -10,7 +10,7 @@ getgenv().Config = {
         ["BypassServer"] = true,
         ["Region"] = "Singapore"
     },
-    ["Server Discord"] = "https://discord.gg/mFzWdBUn45"
+    ["Server Discord"] = "https://discord.gg/66FbFBE7"
 }
 repeat wait() until game:IsLoaded()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/Chest-Farm.lua"))()
+loadstring(game:HttpGet("https://github.com/mkhoidzvl13/chest/blob/main/zedr%20hub.lua.txt"))()
