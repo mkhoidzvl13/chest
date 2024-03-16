@@ -1025,7 +1025,7 @@ Main = Library:Tab("Genaral")
 
 Main:Seperator("https://discord.com/api/webhooks/1210486048698933249/T66DiqJzd7PKGJkdKUqwHjEhFGzm3zcYCIoh4Z270-_jM7Ca_MNooBbumj_XbFfz4bBT")
 
-Main:Textbox("https://discord.com/api/webhooks/1210486048698933249/T66DiqJzd7PKGJkdKUqwHjEhFGzm3zcYCIoh4Z270-_jM7Ca_MNooBbumj_XbFfz4bBT",false,function(value)
+Main:Textbox("Link WebHook",false,function(value)
     LinkWebHook=value
 end)
 
@@ -1060,7 +1060,7 @@ function Send(Webhook)
         re = request
     end
         re({
-        Url = https://discord.com/api/webhooks/1210486048698933249/T66DiqJzd7PKGJkdKUqwHjEhFGzm3zcYCIoh4Z270-_jM7Ca_MNooBbumj_XbFfz4bBT,
+        Url = Webhook,
         Method = "POST",
         Headers = {
             ["Content-Type"] = "application/json"
