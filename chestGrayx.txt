@@ -149,7 +149,7 @@ m.Draggable = true
 m.Active = true
 m.Selectable = true
 m.BackgroundTransparency = .1
-m.Image = "rbxassetid://15756845500"
+m.Image = "rbxassetid://16723326511"
 m.Visible = false
 local l = Instance.new("UICorner")
 l.Name = "MCNR"
@@ -201,7 +201,7 @@ e.BorderColor3 = Color3.fromRGB(0, 0, 0)
 e.BorderSizePixel = 0
 e.Position = UDim2.new(0.87502408, 0, 0.0182926822, 0)
 e.Size = UDim2.new(0, 19, 0, 26)
-e.Image = "http://www.roblox.com/asset/?id=15511995461"
+e.Image = "http://www.roblox.com/asset/?id=16723326511"
 e.MouseButton1Down:connect(
     function()
         game.CoreGui:FindFirstChild("ScreenGui_Chest").Enabled =
@@ -361,13 +361,13 @@ i.TextColor3 = Color3.fromRGB(255, 255, 255)
 i.TextSize = 14.000
 i.MouseButton1Down:connect(
     function()
-        setclipboard("https://discord.gg/tKJZ97NF")
+        setclipboard("https://discord.gg/n44XHHA4J3")
         i.Text = "Copyed Link Discord"
         wait(.25)
         i.Text = "Join Discord"
     end
 )
-j.Name = "NameHub"
+j.Name = "GrayxHub"
 j.Parent = b
 j.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 j.BackgroundTransparency = 1.000
@@ -376,7 +376,7 @@ j.BorderSizePixel = 0
 j.Position = UDim2.new(0.0790036023, 0, -0.00593120279, 0)
 j.Size = UDim2.new(0, 65, 0, 35)
 j.Font = Enum.Font.SourceSansBold
-j.Text = " ekrom Hub X"
+j.Text = " rayx Hub "
 j.TextColor3 = Color3.fromRGB(255, 255, 255)
 j.TextSize = 14.000
 k.Name = "FPS"
